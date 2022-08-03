@@ -111,3 +111,202 @@
 
  
 </body>
+nav{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    position: fixed;
+    background-color: white;
+    width: 210vh;
+    height: 15vh;
+    justify-content: space-between;
+}
+
+header{
+    position: sticky;
+    background-color: white;
+    margin-top: -1.3vh;
+}
+.Toget4Ch{
+    background: url('bill-wegener-LqOO5Ko0zSo-unsplash.jpg');
+    height: 110vh;
+    background-size: cover;
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  margin-top: 4vh;
+}
+a:hover{
+    color:#B31942
+}
+
+.Homal{
+  color: #B31942;
+}
+.JU{
+  font-family: 'Dosis', sans-serif;
+  color: #B31942;
+  border-color: #B31942;
+  border-style: solid;
+  width:20vh;
+  height: 5.8vh;
+  text-align: center;
+  border-radius: 3vh;
+  box-shadow: 0 0 2vh gray;
+  margin-top: 2.7vh;
+  font-size: 3.2vh;
+  font-weight: light;
+  margin-right: 3vh;
+}
+.EFA{
+  font-family: 'Dosis',sans-serif;
+  background-color: white;
+  opacity: 0.9;
+  height: 38vh;
+  width: 40%;
+  margin-left: 5vh;
+  transform: translateY(60vh);
+  font-weight: bold;
+  padding: 1vh;
+  padding-left: 2vh;
+  
+}
+.Text{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: #0A3161;
+}
+h2{
+    color: #0A3161;  
+}
+.AU{
+    background-color: #B31942;
+    width: 18vh;
+    height: 5vh;
+    color:white;
+    padding: 1vh;
+    border-radius: 1.2vh;
+    text-align: center;
+}
+.Info{
+    text-align: center;
+    margin-top: 9vh;
+    
+    color: #0A3161;
+    font-size: 3.6vh;
+   letter-spacing: 0.15rem;
+   width: 60%;
+   margin-left: 40vh;
+}
+.AU1{
+    background-color: #0A3161;
+    width: 18vh;
+    height: 5vh;
+    color:white;
+    padding: 1vh;
+    border-radius: 1.2vh;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3.2vh;
+    letter-spacing: 0.1rem;
+    align-items: center;
+    margin-left: 55vh;
+}
+.mes{
+    width: 20vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.1rem;
+}
+.Contain{
+    display: flex;
+    margin-top: 28vh;
+    margin-left: 21vh;
+    margin-top: 25vh;
+    
+}
+.container{
+  background-color: #0A3161; 
+  width: 80vh; 
+  margin-top: -10vh;
+  height: 120vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:white;
+  padding-left: 8.2vh;
+  
+}
+.Deg{
+   background-color: skyblue;
+   height:30vh;
+   opacity:0.1;
+   margin-top: -30vh;
+}
+.MB{
+    text-align: center;
+    margin-top: 10vh;
+}
+.Cont{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.Stars{
+    width:20%;
+    font-size: 2vh;
+}
+.WN{
+height: 85vh;
+background-color: #ECECEC;
+text-align: center;
+}
+.Arti{
+  background-color: white;
+  height: 65vh;
+  width:56vh;
+  margin-left:8vh;
+  box-shadow: 0 0 1vh grey;
+  border-radius: 1vh;
+}
+.Phot{
+   text-align: center;
+   height:80vh;
+   background-color: white;
+}
+.Footer{
+    background-color: #0A3161;
+    height: 60vh;
+    text-align: center;
+    margin-top: 10vh;
+}
+.Fo_Texto{
+    color: white;
+    font-size: 3.8vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Flb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Carous{
+    display: flex;
+    width: 400vh;
+    animation-duration:10s ;
+    animation-name: Mes;
+    animation-iteration-count: infinite;
+    height: 200vh;
+}
+@keyframes Mes{
+    0%{
+        transform : translateX(0vh);
+        
+    }
+    25%{
+        transform: translateX(-45vh);
+    }
+    50%{
+        transform: translateX(-90vh);
+    }
+   
+    
+}
