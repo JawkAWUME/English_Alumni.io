@@ -1,4 +1,6 @@
-
+body{
+    width:180vh
+}
 
 nav{
     display: flex;
@@ -19,10 +21,11 @@ header{
 }
 .Toget4Ch{
     background: url('bill-wegener-LqOO5Ko0zSo-unsplash.jpg');
-    min-height: 110vh;
+    height: 130vh;
     background-size: cover;
     position: static;
     margin-bottom: 20vh;
+    width: 300vh
 }
 a{
   text-decoration: none;
@@ -176,7 +179,6 @@ text-align: center;
     max-height: 90vh;
     text-align: center;
     margin-top: 10vh;
-    padding:2%;
 }
 .Fo_Texto{
     color: white;
@@ -210,4 +212,9 @@ text-align: center;
    
     
 }
-
+@media (max-width:1000px) {
+    body{
+        width:180vh
+    }
+    
+}
