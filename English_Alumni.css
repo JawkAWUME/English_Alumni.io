@@ -19,11 +19,11 @@ header{
 }
 .Toget4Ch{
     background: url('bill-wegener-LqOO5Ko0zSo-unsplash.jpg');
-    height: 130vh;
+    min-height: 110vh;
     background-size: cover;
     position: static;
     margin-bottom: 20vh;
-    width: 300vh
+    
 }
 a{
   text-decoration: none;
@@ -210,9 +210,8 @@ text-align: center;
    
     
 }
-@media (max-width:1000px) {
-    body{
-        width:180vh
-    }
-    
+@media (min-width:600vh) {
+      body{
+        width:200vh;
+      }
 }
