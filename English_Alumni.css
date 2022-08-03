@@ -1,12 +1,15 @@
+
+
 nav{
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
-   
-    position: fixed;
+    font-size: 3vh;
+    position: sticky;
     background-color: white;
     width: 210vh;
     height: 15vh;
     justify-content: space-between;
+    transform: translateY(0vh);
 }
 
 header{
@@ -16,8 +19,10 @@ header{
 }
 .Toget4Ch{
     background: url('bill-wegener-LqOO5Ko0zSo-unsplash.jpg');
-    height: 110vh;
+    min-height: 110vh;
     background-size: cover;
+    position: static;
+    margin-bottom: 20vh;
 }
 a{
   text-decoration: none;
@@ -42,7 +47,9 @@ a:hover{
   text-align: center;
   border-radius: 3vh;
   box-shadow: 0 0 2vh gray;
-  margin-top: 2.7vh;
+  margin-top: 2.5vh;
+  position:relative;
+  transform: translateY(-0.0001vh);
   font-size: 3.2vh;
   font-weight: light;
   margin-right: 3vh;
@@ -51,7 +58,8 @@ a:hover{
   font-family: 'Dosis',sans-serif;
   background-color: white;
   opacity: 0.9;
-  height: 38vh;
+  min-height: 38vh;
+  max-height: 38vh;
   width: 40%;
   margin-left: 5vh;
   transform: translateY(60vh);
@@ -75,11 +83,13 @@ h2{
     padding: 1vh;
     border-radius: 1.2vh;
     text-align: center;
+    font-size: 3vh;
+    position: relative;
 }
 .Info{
     text-align: center;
     margin-top: 9vh;
-    
+    margin-bottom: 20vh;
     color: #0A3161;
     font-size: 3.6vh;
    letter-spacing: 0.15rem;
@@ -95,8 +105,8 @@ h2{
     border-radius: 1.2vh;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 3.2vh;
-    letter-spacing: 0.1rem;
+    font-size: 3vh;
+    letter-spacing: 0.1em;
     align-items: center;
     margin-left: 55vh;
 }
@@ -114,7 +124,7 @@ h2{
 }
 .container{
   background-color: #0A3161; 
-  width: 80vh; 
+  width: 40%; 
   margin-top: -10vh;
   height: 120vh;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -149,7 +159,7 @@ text-align: center;
 .Arti{
   background-color: white;
   height: 65vh;
-  width:56vh;
+  width:60vh;
   margin-left:8vh;
   box-shadow: 0 0 1vh grey;
   border-radius: 1vh;
@@ -158,16 +168,18 @@ text-align: center;
    text-align: center;
    height:80vh;
    background-color: white;
+   overflow: hidden;
 }
 .Footer{
     background-color: #0A3161;
-    height: 60vh;
+    min-height: 90vh;
+    max-height: 90vh;
     text-align: center;
     margin-top: 10vh;
 }
 .Fo_Texto{
     color: white;
-    font-size: 3.8vh;
+    font-size: 1.4em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .Flb{
@@ -177,7 +189,7 @@ text-align: center;
 }
 .Carous{
     display: flex;
-    width: 400vh;
+    width:400vh;
     animation-duration:10s ;
     animation-name: Mes;
     animation-iteration-count: infinite;
@@ -197,3 +209,4 @@ text-align: center;
    
     
 }
+
